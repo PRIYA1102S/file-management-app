@@ -1,0 +1,116 @@
+/* Container and layout */
+.mcp-container {
+  max-width: 540px;
+  margin: 50px auto;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  padding: 36px;
+}
+.mcp-section {
+  margin-bottom: 30px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Inputs and buttons */
+.mcp-input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  flex: 1 1 auto;
+}
+.mcp-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #4f8cff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background 0.2s;
+}
+.mcp-button:hover {
+  background: #2563eb;
+}
+.mcp-button-danger {
+  background: #ff4f4f;
+}
+.mcp-button-danger:hover {
+  background: #d32f2f;
+}
+
+/* File list */
+.mcp-file-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mcp-file-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #f9f9fb;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 10px 14px;
+}
+.mcp-file-name {
+  flex: 1;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Modal styles */
+.mcp-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.mcp-modal {
+  background: #fff;
+  padding: 28px;
+  border-radius: 16px;
+  min-width: 360px;
+  max-width: 90vw;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+.mcp-modal-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.mcp-textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 15px;
+  margin-bottom: 16px;
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Message */
+.mcp-message {
+  color: #2e7d32;
+  background: #e8f5e9;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 15px;
+} 
